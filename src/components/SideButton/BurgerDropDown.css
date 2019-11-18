@@ -1,0 +1,31 @@
+.dropdown {
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 30%;
+    z-index: 200;
+}
+
+.dropdown ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dropdown a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.dropdown li{
+    margin-bottom: 4%;
+}
+
+.dropdown a:hover,
+.dropdown a:active{
+    color: deeppink;
+}
